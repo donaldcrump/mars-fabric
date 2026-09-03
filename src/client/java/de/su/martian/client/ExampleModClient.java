@@ -1,4 +1,4 @@
-package com.example.client;
+package de.su.martian.client;
 
 import net.fabricmc.api.ClientModInitializer;
 
