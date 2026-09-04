@@ -1,10 +1,6 @@
 {
 	"schemaVersion": 1,
-<<<<<<< HEAD
 	"id": "martianmindset",
-=======
-	"id": "modid",
->>>>>>> f424f0a4a40caa519d6f5d3ad1bfe073a5f76073
 	"version": "${version}",
 	"name": "Example Mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -16,7 +12,6 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-<<<<<<< HEAD
 	"icon": "assets/martianmindset/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -24,29 +19,13 @@
 			"de.su.martian.MartianMindsetMod"
 		],
 		"client": [
-          "de.su.martian.client.ExampleModClient"
+			"de.su.martian.client.ExampleModClient"
 		]
 	},
 	"mixins": [
 		"martianmindset.mixins.json",
 		{
 			"config": "martianmindset.client.mixins.json",
-=======
-	"icon": "assets/modid/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"com.example.ExampleMod"
-		],
-		"client": [
-			"com.example.client.ExampleModClient"
-		]
-	},
-	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
->>>>>>> f424f0a4a40caa519d6f5d3ad1bfe073a5f76073
 			"environment": "client"
 		}
 	],
