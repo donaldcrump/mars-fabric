@@ -16,6 +16,7 @@ public class MartianMindsetMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
 		de.su.martian.block.ModBlocks.registerModBlocks();
+		de.su.martian.item.ModItems.registerModItems();
 	}
 
 	public static Identifier id(String path) {
