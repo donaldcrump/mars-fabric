@@ -1,14 +1,15 @@
 {
   "type": "martianmindset:mars",
   "generator": {
-    "type": "minecraft:flat",
-    "settings": {
-      "layers": [
-        { "block": "minecraft:bedrock", "height": 1 },
-        { "block": "minecraft:red_sand", "height": 5 },
-        { "block": "minecraft:red_sandstone", "height": 10 }
-      ],
-      "biome": "martianmindset:mars_flat"
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:checkerboard",
+      "scale": 2,
+      "biomes": [
+        "martianmindset:mars_flat",
+        "martianmindset:mars_highlands"
+      ]
     }
   }
 }
