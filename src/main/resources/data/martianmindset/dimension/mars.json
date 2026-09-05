@@ -7,8 +7,8 @@
       "type": "minecraft:checkerboard",
       "scale": 2,
       "biomes": [
-        "martianmindset:mars_flat",
-        "martianmindset:mars_highlands"
+        "minecraft:badlands",
+        "minecraft:eroded_badlands"
       ]
     }
   }
