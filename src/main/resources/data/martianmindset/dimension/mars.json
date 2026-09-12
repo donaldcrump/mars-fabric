@@ -2,13 +2,13 @@
   "type": "martianmindset:mars",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "minecraft:overworld",
+    "settings": "martianmindset:mars",
     "biome_source": {
       "type": "minecraft:checkerboard",
       "scale": 2,
       "biomes": [
-        "minecraft:badlands",
-        "minecraft:eroded_badlands"
+        "martianmindset:mars_flat",
+        "martianmindset:mars_highlands"
       ]
     }
   }
